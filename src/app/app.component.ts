@@ -15,10 +15,10 @@ export class AppComponent  {
 'gender' : new FormControl(),
 'favfood' : new FormArray([
   new FormGroup({
-    'india' : new FormControl()
+    'india' : new FormControl(true)
   }),
   new FormGroup({
-       'chinese' : new FormControl()
+       'chinese' : new FormControl(true)
   })
 ])
     })
